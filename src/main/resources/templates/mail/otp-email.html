@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Verify Your Email</title>
+</head>
+<body style="margin: 0; padding: 0; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f6f7f8;">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f6f7f8; table-layout: fixed;">
+    <tr>
+        <td align="center" style="padding: 40px 10px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                   style="max-width: 600px; background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                <tr>
+                    <td style="padding: 48px 40px; text-align: center;">
+
+                        <h1 style="margin: 0 0 16px; color: #111418; font-family: Helvetica, Arial, sans-serif; font-size: 32px; font-weight: 700;">
+                            Verify Your Email
+                        </h1>
+
+                        <p style="margin: 0 0 40px; color: #4b5563; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.6;">
+                            Please use the following verification code to complete your sign-in.
+                            This code will expire in <strong style="color: #111418;">10 minutes</strong>.
+                        </p>
+
+                        <!-- OTP BOX -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                               style="background-color: #f0f7ff; border: 1px solid #e1effe; border-radius: 12px;">
+                            <tr>
+                                <td align="center" style="padding: 32px 20px;">
+
+                                    <table border="0" cellpadding="0" cellspacing="8">
+                                        <tr>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code1}">4</td>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code2}">8</td>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code3}">2</td>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code4}">9</td>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code5}">1</td>
+                                            <td width="44" height="56" align="center" valign="middle"
+                                                style="background:#fff;border:2px solid #d1e5fd;border-radius:8px;
+                                                       color:#137fec;font-family:Helvetica,Arial,sans-serif;
+                                                       font-size:24px;font-weight:700;"
+                                                th:text="${code6}">0</td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- FOOTER -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                               style="margin-top: 48px; border-top: 1px solid #f3f4f6;">
+                            <tr>
+                                <td style="padding-top: 32px; text-align: center;">
+                                    <p style="margin: 0 0 8px; color: #6b7280; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">
+                                        ⓘ Didn't request this code?
+                                    </p>
+                                    <p style="margin: 0; color: #9ca3af; font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                                        If you didn't attempt to log in, you can safely ignore this email.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
